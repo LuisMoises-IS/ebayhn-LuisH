@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Proveedores_1 = require("./Proveedores");
+var Productos_1 = require("./Productos");
+var Cliente_1 = require("./Cliente");
+var Busqueda_1 = require("./Busqueda");
+Proveedores_1.CreateProveedor("Uayeb", "Tegucigalpa Honduras", "1");
+Productos_1.CreateProduct("Uayeb", "Celular Samsung s20", 800, 1000, 100);
+Productos_1.CreateProduct("Uayeb", "Laptop Dell", 900, 1200, 500);
+Cliente_1.CreateCliente("Luis", "luismoises@example.com", 28, "tegucigalpa, Honduras", "9999-0000", "masculino");
+Busqueda_1.CreateBusqueda("Celular Samsung s20", "Luis");
